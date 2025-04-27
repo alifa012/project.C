@@ -160,4 +160,4 @@ void loadInventory(Item inventory[], int *count) {
         return;
     }
 
-    //////
+    ///////
