@@ -159,5 +159,12 @@ void loadInventory(Item inventory[], int *count) {
         printf("No existing inventory file found.\n");
         return;
     }
+    *count = 0;
+    while (fscanf(file, "%s %d %f", inventory[*count].name, &inventory[*count].quantity, &inventory[*count].price) != EOF) {
+        (*count)++;
+    }
 
-    ///////
+    fclose(file);
+    printf("Inventory loaded from file.\n");
+}
+    
