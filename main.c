@@ -167,4 +167,4 @@ void loadInventory(Item inventory[], int *count) {
 
     fclose(file);
     printf("Inventory loaded from file.\n");
-}//alfonce
+}//////
