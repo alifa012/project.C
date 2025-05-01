@@ -167,3 +167,4 @@ void loadInventory(Item inventory[], int *count) {
     fclose(file);
     printf("Inventory loaded from file.\n");
 }
+// end of collaboration//co24/404139/2024
